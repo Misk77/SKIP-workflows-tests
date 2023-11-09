@@ -40,3 +40,6 @@ jobs:
 
       - name: "trigger"
         run: echo " trigger"
+
+      - name: "trigger"
+        run: echo " trigger"
