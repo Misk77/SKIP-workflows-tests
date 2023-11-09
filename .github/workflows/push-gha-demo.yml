@@ -31,3 +31,6 @@ jobs:
 
       - name: "using[skip ci] in five commit -msg"
         run: echo "using in five commit -msg - should NOT RUN"
+
+      - name: "trigger"
+        run: echo " trigger"
