@@ -17,3 +17,7 @@ jobs:
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
 
+      - name: "PR using [SKIP CI] in commit -msg"
+        run: echo "PR - using [SKIP CI] in commit -msg - should NOT RUN"
+
+
