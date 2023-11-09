@@ -20,7 +20,9 @@ jobs:
       - name: "PR using [skip ci] in commit -msg"
         run: echo "PR - using [skip ci] in commit -msg - should NOT RUN"
 
+      - name: "PR in second commit -msg"
+        run: echo "PR - second commit -msg - should RUN"
+
       - name: "PR using [skip ci] in third commit -msg"
         run: echo "PR - using [skip ci] in third commit -msg - should NOT RUN"
-
 
